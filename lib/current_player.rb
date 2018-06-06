@@ -7,7 +7,6 @@ def turn_count(board)
 
     if board != " "
       counter += 1
-      # puts "there are #{counter} space/s occupied"
     end
   end
   counter
@@ -17,7 +16,7 @@ end
 def current_player(board)
 
   if turn_count.odd == true
-    puts "X"
+    return "X"
   # else
   #   return "X"
   end
