@@ -15,8 +15,8 @@ end
 #current player
 def current_player(board)
 
-  if turn_count(board).odd == true
-    return "O"
+  if turn_count % 2
+    return "X"
 
   end
 end
